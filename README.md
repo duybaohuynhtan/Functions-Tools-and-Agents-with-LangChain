@@ -27,7 +27,7 @@ After taking this course, you'll know how to:
 This course is organized into **8 lessons**  with **6 code examples**, each accompanied by a Jupyter notebook:
 
 ### 1. **OpenAI Function Calling** – _Introduction to function calling with OpenAI's API_
-- **Notebook:** [`L1-openai_functions_student.ipynb`](./L1/L1-openai_functions_student.ipynb)
+- **Notebook:** [`OpenAI Function Calling`](./01.%20OpenAI%20Function%20Calling/L1-openai_functions_student.ipynb)
 - **Key Concepts:**
   - 🔍 **Basic Function Definitions**: Learn to define functions for LLM use
   - ⚙️ **Function Schema**: Structure function parameters and descriptions
@@ -48,7 +48,7 @@ This course is organized into **8 lessons**  with **6 code examples**, each acco
     ```
 
 ### 2. **LangChain Expression Language (LCEL)** – _Composing chains with the new LCEL syntax_
-- **Notebook:** [`L2-lcel-student.ipynb`](./L2/L2-lcel-student.ipynb)
+- **Notebook:** [`LangChain Expression Language (LCEL)`](./02.%20LangChain%20Expression%20Language%20(LCEL)/L2-lcel-student.ipynb)
 - **Key Concepts & Code Examples:**
   - 🔗 **Chain Composition**: Using the pipe operator for cleaner syntax
   - 🗃️ **Runnable Maps**: Parallel processing and data flow
@@ -65,7 +65,7 @@ This course is organized into **8 lessons**  with **6 code examples**, each acco
     ```
 
 ### 3. **OpenAI Function Calling in LangChain** – _Integrating Pydantic models with LangChain_
-- **Notebook:** [`L3-function-calling-student.ipynb`](./L3/L3-function-calling-student.ipynb)
+- **Notebook:** [`OpenAI Function Calling in LangChain`](./03.%20OpenAI%20Function%20Calling%20in%20LangChain/L3-function-calling-student.ipynb)
 - **Key Concepts & Code Examples:**
   - 🏗️ **Pydantic Integration**: Type-safe function definitions
   - 🔄 **Function Conversion**: Converting Pydantic models to OpenAI functions
@@ -80,7 +80,7 @@ This course is organized into **8 lessons**  with **6 code examples**, each acco
     ```
 
 ### 4. **Tagging and Extraction** – _Using functions for structured data extraction_
-- **Notebook:** [`L4-tagging-and-extraction-student.ipynb`](./L4/L4-tagging-and-extraction-student.ipynb)
+- **Notebook:** [`Tagging and Extraction`](./04.%20Tagging%20and%20Extraction/L4-tagging-and-extraction-student.ipynb)
 - **Key Concepts & Code Examples:**
   - 🏷️ **Text Tagging**: Classify and tag text content
   - 📊 **Data Extraction**: Extract structured information from unstructured text
@@ -107,7 +107,7 @@ This course is organized into **8 lessons**  with **6 code examples**, each acco
     ```
 
 ### 5. **Tools and Routing** – _Building tools and implementing routing logic_
-- **Notebook:** [`L5-tools-routing-apis-student.ipynb`](./L5/L5-tools-routing-apis-student.ipynb)
+- **Notebook:** [`Tools and Routing`](./05.%20Tools%20and%20Routing/L5-tools-routing-apis-student.ipynb)
 - **Key Concepts & Code Examples:**
   - 🛠️ **Tool Creation**: Define custom tools with the `@tool` decorator
   - 🎯 **Routing Logic**: Direct queries to appropriate tools
@@ -124,7 +124,7 @@ This course is organized into **8 lessons**  with **6 code examples**, each acco
     ```
 
 ### 6. **Conversational Agent** – _Building a complete conversational agent_
-- **Notebook:** [`L6-functional_conversation-student.ipynb`](./L6/L6-functional_conversation-student.ipynb)
+- **Notebook:** [`Conversational Agent`](./06.%20Conversational%20Agent/L6-functional_conversation-student.ipynb)
 - **Key Concepts & Code Examples:**
   - 💬 **Agent Architecture**: Complete conversational agent implementation
   - 🌐 **Real API Integration**: Working with external APIs like OpenMeteo
@@ -144,14 +144,14 @@ This course is organized into **8 lessons**  with **6 code examples**, each acco
 
 A consolidated list of all notebooks and their purpose:
 
-| Lesson | Notebook                                                                                    | Description                                 |
-| ------ | ------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| 1      | [`L1-openai_functions_student.ipynb`](./L1/L1-openai_functions_student.ipynb)               | Introduction to OpenAI function calling     |
-| 2      | [`L2-lcel-student.ipynb`](./L2/L2-lcel-student.ipynb)                                       | LangChain Expression Language (LCEL) syntax |
-| 3      | [`L3-function-calling-student.ipynb`](./L3/L3-function-calling-student.ipynb)               | Function calling integration with LangChain |
-| 4      | [`L4-tagging-and-extraction-student.ipynb`](./L4/L4-tagging-and-extraction-student.ipynb)   | Text tagging and data extraction techniques |
-| 5      | [`L5-student.ipynb`](./L5/L5-student.ipynb)                                                 | Tools creation and routing implementation   |
-| 6      | [`L6-functional_conversation-student.ipynb`](./L6/L6-functional_conversation-student.ipynb) | Complete conversational agent development   |
+| Lesson | Notebook                                                                                                                         | Description                                 |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| 1      | [`OpenAI Function Calling`](./01.%20OpenAI%20Function%20Calling/L1-openai_functions_student.ipynb)                               | Introduction to OpenAI function calling     |
+| 2      | [`LangChain Expression Language (LCEL)`](./02.%20LangChain%20Expression%20Language%20(LCEL)/L2-lcel-student.ipynb)               | LangChain Expression Language (LCEL) syntax |
+| 3      | [`OpenAI Function Calling in LangChain`](./03.%20OpenAI%20Function%20Calling%20in%20LangChain/L3-function-calling-student.ipynb) | Function calling integration with LangChain |
+| 4      | [`Tagging and Extraction`](./04.%20Tagging%20and%20Extraction/L4-tagging-and-extraction-student.ipynb)                           | Text tagging and data extraction techniques |
+| 5      | [`Tools and Routing`](./05.%20Tools%20and%20Routing/L5-student.ipynb)                                                            | Tools creation and routing implementation   |
+| 6      | [`Conversational Agent`](./06.%20Conversational%20Agent/L6-functional_conversation-student.ipynb)                                | Complete conversational agent development   |
 
 ## 🚀 Getting Started
 
